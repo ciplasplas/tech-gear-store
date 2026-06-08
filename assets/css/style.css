@@ -5,14 +5,14 @@
     font-family: sans-serif;
 }
 
-.body {
-    background-color: #e9e6e6;
+body {
+    background-color: #f1f5f9;
 }
 
 .navbar {
     display: flex;
     justify-content: space-between;
-    background-color: #fcf9f9;
+    background-color: #f8f8fa;
     box-shadow: 0 3px 16px rgba(0, 0, 0, 0.1);
     position: sticky;
     align-items: center;

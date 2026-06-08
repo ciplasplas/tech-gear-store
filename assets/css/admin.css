@@ -5,12 +5,12 @@
     font-family: sans-serif;
 }
 
-.body {
-    background-color: #e9e6e6;
+body {
+    background-color: #f8fafc; 
 }
 
 .sidebar {
-    width: 250px;
+    width: 235px;
     height: 100vh;
     background-color: #fcf9f9;
     box-shadow: 0 3px 16px rgba(0, 0, 0, 0.1);
@@ -74,4 +74,93 @@
 .sidebar-links .logout-btn:hover {
     background-color: #dc3545; 
     color: #ffffff;            
+}
+
+/* Cấu hình page-header để đẩy 2 khối ra 2 đầu */
+.page-header {
+    margin-left: 235px;
+    padding: 30px 40px;
+    background-color: #ffffff;
+    border-bottom: 1px solid #e2e8f0;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Đẩy khối left sang trái, khối right sang phải */
+}
+
+/* --- Định dạng phần chữ bên cạnh --- */
+.header-left h1 {
+    font-size: 28px;    
+    font-weight: 700;
+    color: #1e293b;
+    margin: 0 0 4px 0;
+    letter-spacing: -0.5px;
+    line-height: 1.2;
+}
+
+.header-left p {
+    font-size: 14px;   
+    color: #64748b;     
+    font-weight: 400;
+    letter-spacing: 0.5px;    
+}
+
+/* Khối bên trái: xếp icon và chữ nằm ngang */
+.header-left {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+/* Khối bên phải: xếp các nút nằm ngang hàng với nhau */
+.header-right {
+    display: flex;
+    gap: 12px; /* Khoảng cách giữa các nút */
+}
+
+/* --- TỐI ƯU LẠI: Ô chứa icon --- */
+.header-icon {
+    width: 48px;      
+    height: 48px;       
+    background-color: #eef1f5; 
+    color: #0f172a;     
+    border-radius: 12px;
+    font-size: 20px;    
+    display: flex;      
+    align-items: center;   
+    justify-content: center;
+    flex-shrink: 0;    
+}
+
+/* Định dạng chung cho các nút bấm */
+.btn {
+    padding: 10px 18px;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 8px; 
+    transition: all 0.3s ease;
+}
+
+/* Style cho nút chính (Thêm sản phẩm) */
+.btn-primary {
+    background-color: #000000; 
+    color: #ffffff;
+}
+.btn-primary:hover {
+    background-color: #334155;
+}
+
+/* Style cho nút phụ (Xuất file) */
+.btn-secondary {
+    background-color: #f1f5f9;
+    color: #334155;
+    border: 1px solid #e2e8f0;
+}
+.btn-secondary:hover {
+    background-color: #e2e8f0;
 }
