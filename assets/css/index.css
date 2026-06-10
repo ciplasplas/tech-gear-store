@@ -16,8 +16,6 @@
 
 .banner-section img {
     width: 100%;
-    object-fit: cover;
-    display: block; 
     cursor: pointer;
 }
 
@@ -30,9 +28,6 @@
 .btn-filter-main {
     margin-left: 15px;
     margin-top: 10px;
-    display: inline-flex;
-    align-items: center;    
-    gap: 4px;
     padding: 10px 12px;
     border-radius: 8px;
     background-color: transparent;
@@ -59,7 +54,6 @@
 
 .filter-logo-list {
     display: flex;
-    list-style: none;
     margin-top: 8px;
     margin-left: 10px;
     gap: 10px;
@@ -68,17 +62,10 @@
 .btn-brand {
     width: 80px;     
     height: 38px;
-    border: 1px solid #f0f0f0;
     background-color: #f7f5ff;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     cursor: pointer;
     padding: 4px;
     transition: all 0.2s ease;
-}
-
-.filter-logo-list button {
     border-radius: 8px; 
     border: none;
     gap: 10px;
