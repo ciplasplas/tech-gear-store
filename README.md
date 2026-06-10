@@ -1,2 +1,2 @@
-# web-app
-Đồ án cuối kỳ  lập trình web
+Preview our website at:
+tech-gear-store.vercel.app
