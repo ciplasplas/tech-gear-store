@@ -14,7 +14,8 @@ body {
     justify-content: space-between;
     background-color: #f8f8fa;
     box-shadow: 0 3px 16px rgba(0, 0, 0, 0.1);
-    position: sticky;
+    position: fixed;
+    width: 100%;
     top: 0;
     align-items: center;
     padding: 30px 20px;
